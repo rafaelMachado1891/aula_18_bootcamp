@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "aula-18-bootcamp"
+name = "backend"
 version = "0.1.0"
 description = ""
 authors = ["rafaelMachado1891 <rafadmn1@gmail.com>"]
@@ -7,8 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-requests = "^2.32.3"
-sqlalchemy = "^2.0.32"
 pydantic = "^2.8.2"
 
 

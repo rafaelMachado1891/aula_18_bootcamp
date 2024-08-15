@@ -3,7 +3,7 @@ from sqlalchemy.sql import func
 from database import Base
 
 class ProductModel(Base):
-    __tablename__ = "obras"
+    __tablename__ = "product"
 
     id = Column(Integer, primary_key=True)
     filial = Column(String)
